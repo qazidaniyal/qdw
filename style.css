@@ -1,0 +1,490 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top{
+    
+    height: 80px;
+    background-color:#316dc3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon,
+.heding,.button{
+    font-size: small;
+    
+
+}
+.heding{
+    
+    padding-top: 15px;
+    text-align: center;
+    width: 300px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+.face{
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+.twi{
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.insta{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.whats{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.uk,.Donate,.smit{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.nav{
+    
+    height: 80px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between
+}
+.scroll{    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between
+}
+
+
+.logo img{
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 8px;
+    
+       
+}
+.options{
+    margin-right: 150px;
+
+
+
+}
+
+.options ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+    margin-top: 9px;
+    
+}
+
+
+.options ul li{
+    text-decoration: none;
+    width: 40px;
+    font-size: 15px;
+    margin-right: 40px;
+    padding: 20px;
+}
+.options ul li a{
+    border-radius: 70px;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.options ul li a:hover{
+    background-color:#316dc3;
+    color: white;
+    transition: 0.5s;
+}
+
+.Sub1,.Sub2{
+    display: none;
+}
+
+.options ul li:hover .Sub1,.options ul li:hover .Sub2,.options ul li:hover .Sub3
+{
+    
+    display: block;
+    position: absolute;
+    background-color:white;
+    color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.options ul li:hover .Sub1  ul,.options ul li:hover .Sub2  ul,.options ul li:hover .Sub3{
+    display: block;
+    
+}
+.options ul li:hover .Sub1  ul li,.options ul li:hover .Sub2  ul li,.options ul li:hover .Sub3{
+    padding-left: 10px;
+    font-size:small;
+}
+
+
+.pics{
+    
+    height: 80px;
+    background-color:palegreen;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:start
+}
+.c{
+   
+    width: 100%;
+}
+.the{
+    
+    height: 100px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+.intro h1{
+    margin-top: 80px;
+    color: green;
+    font-weight:bold ;
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+.pic img{
+    margin-top: 40px;
+ margin-left:48% ;   
+width: 50px;
+
+}
+.para
+{margin-top: 20px;
+   
+padding-bottom: 100px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+.para1,.para2,.para3,.para4{
+   color: gray;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%; 
+    
+}
+
+
+
+.box{
+    padding-top: 60px;
+    padding: 40px;
+   display: block;
+   float: left;
+   width: 25%;
+   background: #316dc3;
+   color: #efefef;
+   font-family: 'Inconsolata', monospace;
+   font-family: 'Titillium Web', sans-serif;
+   font-size: bold;
+   font-weight: bold;
+   height: 300px;
+   
+}
+
+
+.img1{
+    margin-left: 50px;
+}
+.box h1,.box h6{
+    text-align: center;
+}
+.thee{
+    margin-top: 40px;
+    height: 150px;
+    
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+      
+}
+
+.thee h1{
+    margin-top: 30px;
+    color: green;
+    font-weight:bold ;
+    font-size: 40px;
+    padding-left: 30%;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
+
+    
+}
+.thee img{
+    padding-left: 49%;
+}
+.boxx{
+    margin-top: 10px;
+    height: 500px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    background-color: rgb(233, 233, 233);
+
+}
+.box1{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    color: #316dc3;
+    transition: 0.5s ease;
+    background-color: white;
+    box-shadow: 8px 8px 8px 8px #888888;
+}
+.box1:hover{
+    
+    transform: scale(1.1,1.1);
+    box-shadow: 12px 12px 12px 12px #888888;
+
+}
+.box1 h1{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
+
+    text-align: center;
+}
+.box1 img{
+    width: 180px;
+    padding-left: 45%;
+    padding-top: 40px;
+}
+
+.big{
+    margin-top: 10px;
+    height: 400px;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+        
+
+}
+.mission{
+    
+    width: 65%;
+}
+.mission h1{
+    padding-top: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    color: #316dc3;
+    
+padding-left: 10px ;    
+
+}
+
+.four{
+    margin-top: 10px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width: 100%;
+
+
+}
+.hepa1,.hepa2,.hepa3,.hepa4
+{
+    width: 42%;
+    height: 90px;
+    margin: 10px;
+   
+    transition: 0.5s ease;
+    background-color:rgb(233, 233, 233);
+}
+.hepa1:hover,.hepa2:hover,.hepa3:hover,.hepa4:hover
+{
+    
+    transform: scale(1.1,1.1);
+    box-shadow: 7px 7px 7px 7px #888888;
+}
+
+.h {
+    color: #316dc3; 
+   margin-top: 18px; 
+    margin-left: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: medium;
+    display: inline-block;
+    
+}
+
+.l h3{
+    color: #316dc3; 
+    font-weight: bold;
+}
+
+.upcoming{
+    
+    margin-top: 25px;
+    height: 300px;
+    
+    width: 32%;
+}
+
+.x{
+    height: 140px;
+    
+}
+
+.x h1{
+
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color: #316dc3; 
+    font-weight: bold;
+}
+.x img{
+    padding-left: 48%;
+    
+}
+.gallery{
+    padding-top: 30px;
+    padding: 30px;
+    height: 300px;
+    
+}
+.gallery img{
+    padding-left: 20px;
+    width: 180px;
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: opacity(25%);
+    transform: scale(1.1,1.1);
+}
+.foot{
+    height: 400px;
+    background-color: rgb(37, 39, 46); 
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info1{
+ background-color:rgb(37, 39, 46);
+    color: gray;
+}
+
+.info1 p{
+    padding-top: 60px;
+}
+
+
+.info1 ul li{
+    margin-left:10px;
+    list-style: none;
+}
+.info2{
+    width: 35%;
+    background-color:rgb(37, 39, 46);
+
+
+}
+
+.info2 p{
+padding-top: 60px;
+padding-left: 30px;
+color: white;
+font-weight: bold;
+
+
+font-family: 'Inconsolata', monospace;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.bot h3{
+    color: rgb(37, 39, 46);
+    border-bottom: 2px solid gray;
+}
+.info3{
+    width: 30%;
+    background-color:rgb(37, 39, 46);
+}
+.info3 p{
+    padding-top: 60px;
+    padding-left: 50px;
+    color: white;
+    font-weight: bold;
+    
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+.info3 ul{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 5px;
+    
+}
+.info3 .fa   {
+    background-color:#316dc3;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 15px 10px 15px;
+}
+
+.info3 ul li{
+    display: inline-block;
+    margin: 2px;
+}
+
+.footer{
+    background-color:#316dc3; 
+    height: 50px;
+}
+.footer p{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
